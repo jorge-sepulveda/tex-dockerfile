@@ -68,7 +68,7 @@ Edited the resumePackages Docker file to create a docker image for my resume tha
 
 ```shell
 docker build --tag alexwlchan/texlive-resume --file resumePackages.Dockerfile .
-docker run --volume $(pwd):/data alexwlchan/texlive-resume xelatex [tekfile].tex
+docker run --volume $(pwd):/data alexwlchan/texlive-resume xelatex resume.tex
 OR
 docker run --volume $(pwd):/data alexwlchan/texlive-resume pdflatex [tekfile].tex
 ```
