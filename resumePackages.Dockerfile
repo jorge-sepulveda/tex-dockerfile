@@ -21,4 +21,14 @@ RUN tlmgr update --self \
             && tlmgr install tcolorbox \ 
             && tlmgr install parskip \ 
             && tlmgr install hyperref \ 
+            && tlmgr install paralist \
+            && tlmgr install censor \
+            && tlmgr install ifnextok \
+            && tlmgr install upquote \
+            && tlmgr install wrapfig \
+            && tlmgr install adjustbox \
+            && tlmgr install collectbox \
+            && tlmgr install pbox \
+            && tlmgr install ucs \  
+            && tlmgr install titling \ 
             && tlmgr install environ 
